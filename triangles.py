@@ -19,7 +19,7 @@ class Triangles(object):
             ': '
         self.edit_menu = \
             'Enter 3 integers, separated by a space, for the' \
-            ' lengths of the triangle: '
+            ' lengths of the sides of the triangle: '
         self.info_menu = \
             'Choose from the following options: \n' \
             '1) Type of triangle 1\n' \
@@ -27,7 +27,7 @@ class Triangles(object):
             '3) Congruence/similarity between triangles 1 and 2\n' \
             '4) Exit\n' \
             ': '
-        self.invalid_msg = 'Invalid input. Please try again.'
+        self.invalid_msg = '\nInvalid input. Please try again.\n'
 
     def menu(self):
         while True:
@@ -82,7 +82,7 @@ class Triangles(object):
     @staticmethod
     def show_triangle_info(triangle):
         if triangle is None:
-            print('Triangle is unset.')
+            print('\nTriangle is unset\n')
             return
 
         type2 = None
