@@ -1,4 +1,7 @@
-# Requirements: python3
+# Triangles
+
+
+Requirements: python3
 
 To run it simply run triangles.py using python3 ('python3 triangles.py' in Ubuntu 14.04)
 
