@@ -1,7 +1,3 @@
-"""
-Copyright 2016, KnuVerse
-All rights reserved.
-"""
 import copy
 import itertools
 
